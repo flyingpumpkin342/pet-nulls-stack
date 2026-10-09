@@ -9,9 +9,13 @@ deployment "simple" {
   }
 }
 
+
 deployment "complex" {
   inputs = {
     prefix           = "complex"
     instances        = 7
   }
+}
+
+deployment_group "empty" {
 }
