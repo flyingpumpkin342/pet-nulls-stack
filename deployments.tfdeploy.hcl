@@ -17,5 +17,3 @@ deployment "complex" {
   }
 }
 
-deployment_group "empty" {
-}
